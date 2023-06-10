@@ -5,7 +5,7 @@ from discord.ext import commands
 client = commands.Bot(command_prefix='?', intents=discord.Intents.all())
   # префикс для команд бота
 
-openai.api_key = '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'  # API ключ от OpenAI
+openai.api_key = ''  # API ключ от OpenAI
 model_engine = "davinci"  # имя модели GPT
 
 @client.event
@@ -31,4 +31,4 @@ async def chat(ctx, *, message):
   await ctx.send(bot_reply)
 
 # Запускаем бота
-client.run('MTExNDU3OTI0OTcwMjEwOTIxNg.GbzwIT.eFo3dlqNOpFT4-zQem0pjg-Q7SuIIQN_CIrdvY')  # Токен вашего бота в Discord
+client.run('')  # Токен вашего бота в Discord
