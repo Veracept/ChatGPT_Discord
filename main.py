@@ -3,7 +3,7 @@ import discord
 from discord.ext import commands
 
 client = commands.Bot(command_prefix='?', intents=discord.Intents.all())
-  # префикс для команд бота
+  # префикс для команд ботa
 
 openai.api_key = ''  # API ключ от OpenAI
 model_engine = "davinci"  # имя модели GPT
